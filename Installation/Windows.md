@@ -22,8 +22,8 @@ INSTALLATION ON WINDOWS 7 IS IMPOSSIBLE AS IT CAN NOT RUN NODEJS 18.16
 5. Open a Command Prompt inside that folder by clicking in the 'Address Bar' at the top, typing `cmd`, and pressing Enter.
 6. Once the black box (Command Prompt) pops up, type ONE of the following into it and press Enter:
 
-   - for Release Branch: `git clone https://github.com/SillyTavern/SillyTavern -b release`
-   - for Staging Branch: `git clone https://github.com/SillyTavern/SillyTavern -b staging`
+   - for Release Branch: `git clone https://github.com/SillyTavern/SillyTavern -b release --depth 1`
+   - for Staging Branch: `git clone https://github.com/SillyTavern/SillyTavern -b staging --depth 1`
 
 7. Once everything is cloned, double-click `Start.bat` to make NodeJS install its requirements.
 8. The server will then start, and SillyTavern will pop up in your browser.
